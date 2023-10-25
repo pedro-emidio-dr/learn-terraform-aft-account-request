@@ -1,27 +1,26 @@
-module "sandbox" {
+module "network" {
   source = "./modules/aft-account-request"
 
   control_tower_parameters = {
-    AccountEmail              = "<ACCOUNT EMAIL>"
-    AccountName               = "sandbox-aft"
-    ManagedOrganizationalUnit = "Learn AFT"
-    SSOUserEmail              = "<SSO EMAIL>"
-    SSOUserFirstName          = "Sandbox"
-    SSOUserLastName           = "AFT"
+    AccountEmail              = "pedro.emidio+bmg-lz-network@datarain.com.br"
+    AccountName               = "Network"
+    ManagedOrganizationalUnit = "Security"
+    SSOUserEmail              = "pedro.emidio+bmg-lz-network@datarain.com.br"
+    SSOUserFirstName          = "Pedro"
+    SSOUserLastName           = "Emidio"
   }
 
   account_tags = {
-    "Learn Tutorial" = "AFT"
-  }
-
-  change_management_parameters = {
-    change_requested_by = "HashiCorp Learn"
-    change_reason       = "Learn AWS Control Tower Account Factory for Terraform"
+    "CreatedBy" = "Terraform"
   }
 
   custom_fields = {
-    group = "non-prod"
+    group = "controller"
   }
 
-  account_customizations_name = "sandbox"
+  change_management_parameters = {
+    change_requested_by = "Network configurations"
+    change_reason       = "Network configurations"
+  }
+
 }
