@@ -23,4 +23,5 @@ module "network" {
     change_reason       = "Network configurations"
   }
 
+  account_customizations_name = "controller"
 }
