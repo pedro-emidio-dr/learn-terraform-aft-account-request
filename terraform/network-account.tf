@@ -20,7 +20,7 @@ module "network" {
 
   change_management_parameters = {
     change_requested_by = "Network configurations"
-    change_reason       = "Network configurations"
+    change_reason       = "Transit gateway"
   }
 
   account_customizations_name = "controller"
