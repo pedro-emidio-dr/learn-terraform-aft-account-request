@@ -20,7 +20,7 @@ module "identity-center" {
 
   change_management_parameters = {
     change_requested_by = "identity center"
-    change_reason       = "identity center management"
+    change_reason       = "access control"
   }
 
   account_customizations_name = "controller"
