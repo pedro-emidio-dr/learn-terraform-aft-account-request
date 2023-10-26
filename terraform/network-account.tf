@@ -5,7 +5,7 @@ module "network" {
     AccountEmail              = "pedro.emidio+bmg-lz-network@datarain.com.br"
     AccountName               = "Network"
     ManagedOrganizationalUnit = "Controllers"
-    SSOUserEmail              = "pedro.emidio+bmg-lz-network @datarain.com.br"
+    SSOUserEmail              = "pedro.emidio+bmg-lz-network-confs@datarain.com.br"
     SSOUserFirstName          = "Pedro"
     SSOUserLastName           = "Emidio"
   }

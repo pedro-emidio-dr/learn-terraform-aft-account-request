@@ -2,10 +2,10 @@ module "identity-center" {
   source = "./modules/aft-account-request"
 
   control_tower_parameters = {
-    AccountEmail              = "pedro.emidio+bmg-lz-SSO@datarain.com.br"
+    AccountEmail              = "pedro.emidio+bmg-lz-identity@datarain.com.br"
     AccountName               = "Identity-center"
     ManagedOrganizationalUnit = "Controllers"
-    SSOUserEmail              = "pedro.emidio+bmg-lz-SSO@datarain.com.br"
+    SSOUserEmail              = "pedro.emidio+bmg-lz-identity@datarain.com.br"
     SSOUserFirstName          = "Pedro"
     SSOUserLastName           = "Emidio"
   }
