@@ -4,7 +4,7 @@ module "network" {
   control_tower_parameters = {
     AccountEmail              = "pedro.emidio+bmg-lz-network-configs@datarain.com.br"
     AccountName               = "Network"
-    ManagedOrganizationalUnit = "ou-rhrc-7n9oxznk"
+    ManagedOrganizationalUnit = "r-rhrc"
     SSOUserEmail              = "pedro.emidio+bmg-lz-network-configs@datarain.com.br"
     SSOUserFirstName          = "Pedro"
     SSOUserLastName           = "Emidio"
