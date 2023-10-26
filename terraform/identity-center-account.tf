@@ -4,7 +4,7 @@ module "identity-center" {
   control_tower_parameters = {
     AccountEmail              = "pedro.emidio+bmg-lz-SSO@datarain.com.br"
     AccountName               = "Identity-center"
-    ManagedOrganizationalUnit = "r-rhrc"
+    ManagedOrganizationalUnit = "Controllers"
     SSOUserEmail              = "pedro.emidio+bmg-lz-SSO@datarain.com.br"
     SSOUserFirstName          = "Pedro"
     SSOUserLastName           = "Emidio"
