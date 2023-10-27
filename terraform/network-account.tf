@@ -2,7 +2,7 @@ module "network" {
   source = "./modules/aft-account-request"
 
   control_tower_parameters = {
-    AccountEmail              = "pedro.emidio+bmg-lz-network@datarain.com.br"
+    AccountEmail              = "pedro.emidio+bmg-lz-network-confs@datarain.com.br"
     AccountName               = "Network"
     ManagedOrganizationalUnit = "Root"
     SSOUserEmail              = "pedro.emidio+bmg-lz-network-confs@datarain.com.br"
