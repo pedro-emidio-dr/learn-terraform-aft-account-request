@@ -15,7 +15,8 @@ module "identity-center" {
   }
 
   custom_fields = {
-    group = "controller"
+    group = "controller",
+    test  = "test"
   }
 
   change_management_parameters = {
