@@ -25,5 +25,5 @@ module "network" {
     change_reason       = "Transit gateway and others "
   }
 
-  account_customizations_name = "controller"
+  account_customizations_name = "management"
 }

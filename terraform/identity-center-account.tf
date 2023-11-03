@@ -24,5 +24,5 @@ module "identity-center" {
     change_reason       = "access control"
   }
 
-  account_customizations_name = "controller"
+  account_customizations_name = "management"
 }
