@@ -1,4 +1,4 @@
-module "network" {
+module "production" {
   source = "./modules/aft-account-request"
 
   control_tower_parameters = {
@@ -15,12 +15,12 @@ module "network" {
   }
 
   custom_fields = {
-    group = "Workloads"
+    group = "production"
   }
 
   change_management_parameters = {
-    change_requested_by = "Workloads"
-    change_reason       = "APIs"
+    change_requested_by = "production"
+    change_reason       = "production account"
   }
 
   account_customizations_name = "workloads"
