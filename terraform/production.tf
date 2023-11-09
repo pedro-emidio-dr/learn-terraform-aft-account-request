@@ -16,6 +16,7 @@ module "production" {
 
   custom_fields = {
     group = "production"
+    teste = "teste"
   }
 
   change_management_parameters = {
